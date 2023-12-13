@@ -1,3 +1,3 @@
-FROM prom/prometheus:v2.20.0
+FROM prom/prometheus:latest
 COPY entrypoint.sh /entrypoint.sh
 ENTRYPOINT [ "/entrypoint.sh" ]
